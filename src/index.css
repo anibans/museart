@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+.cta-nav-titles{
+    @apply block mt-4 text-black hover:text-red-600 mr-4 font-medium md:inline-block md:mt-0
+  }
+
+.circle{
+  @apply w-24 h-24 fixed flex justify-center rounded-full  m-auto mb-10 z-10 top-20
+}
+@tailwind utilities;
